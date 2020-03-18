@@ -1,0 +1,13 @@
+.paintings-container {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  /* grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-rows: repeat(auto-fit, 300px);
+  grid-gap: 1rem;
+  grid-auto-flow: dense;
+}
+
+.paintings {
+}
