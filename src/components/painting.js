@@ -30,7 +30,7 @@ export default () => (
         }
       `}
       render={data => (
-        <div>
+        <div className="paintings-container">
           {data.allFile.edges.map(edge => (
             <Img
               className="paintings"
