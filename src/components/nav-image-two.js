@@ -2,10 +2,10 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-const Lithography = () => {
+const Lola = () => {
   const data = useStaticQuery(graphql`
     query {
-      lithoImage: file(relativePath: { eq: "litho-plate.jpg" }) {
+      lolaImage: file(relativePath: { eq: "lola.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 150) {
             aspectRatio
@@ -15,7 +15,7 @@ const Lithography = () => {
       }
     }
   `)
-  return <Img fluid={data.lithoImage.childImageSharp.fluid} />
+  return <Img fluid={data.lolaImage.childImageSharp.fluid} alt="lola" />
 }
 
-export default Lithography
+export default Lola

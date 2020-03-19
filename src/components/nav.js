@@ -1,6 +1,6 @@
 import React from "react"
-// import Img from "gatsby-image"
-import Lithograph from "../components/nav-image"
+import Lithograph from "./nav-image-one"
+import Lola from "./nav-image-two"
 
 const Nav = () => (
   <div className="hero">
@@ -32,6 +32,7 @@ const Nav = () => (
             <div className="hero-images-inner">
               <div className="hero-image-lithograph">
                 <Lithograph />
+                <Lola />
               </div>
             </div>
           </div>
