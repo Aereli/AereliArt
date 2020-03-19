@@ -1,5 +1,6 @@
 import React from "react"
-import Img from "gatsby-image"
+// import Img from "gatsby-image"
+import Lithograph from "../components/nav-image"
 
 const Nav = () => (
   <div className="hero">
