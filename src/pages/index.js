@@ -10,8 +10,6 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Link to="/page-2/">Go to page 2</Link>
-    <h1>Hi people</h1>
-
     <Nav />
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       {/* <Image /> */}

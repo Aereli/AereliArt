@@ -4,15 +4,21 @@
     width: 1440px;
     min-width: 1440px;
     .hero-inner {
-      // display: flex;
-      // align-items: center;
-      // // justify-content: space-between;
-      // // margin: 0 24px;
-      // // height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 24px;
+      height: 100vh;
       .hero-content {
+        width: 50%;
         .hero-content-inner {
+          width: 400px;
+          margin: 0;
           h1 {
             .hero-content-line {
+              margin: 0;
+              height: 44px;
+              overflow: hidden;
             }
           }
           p {
@@ -23,4 +29,7 @@
       }
     }
   }
+}
+.hero-image-lithograph {
+  width: 300px;
 }
