@@ -47,6 +47,7 @@ const Layout = ({ children }) => {
           <a
             href="https://www.gatsbyjs.org"
             target="_blank"
+            rel="noopener noreferrer"
             style={{
               textDecoration: `none`,
             }}
