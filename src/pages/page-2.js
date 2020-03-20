@@ -3,13 +3,21 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Painting from "../components/painting"
-import paintings from "../styles/paintings.css"
+import "../styles/page-2.css"
 
 const SecondPage = () => (
   <Layout>
     <SEO title="Page two" />
-    <Link to="/">Home</Link>
-    <Painting />
+    <div className="container">
+      <div className="left-side">
+        <Link className="home-link" to="/">
+          Home
+        </Link>
+      </div>
+      <div className="right-side">
+        <Painting />
+      </div>
+    </div>
   </Layout>
 )
 

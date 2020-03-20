@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
+import "../styles/paintings.css"
 
 import Img from "gatsby-image"
 

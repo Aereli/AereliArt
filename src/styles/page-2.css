@@ -1,0 +1,20 @@
+.home-link {
+  text-decoration: none;
+  margin-left: 2rem;
+}
+
+.container {
+  display: flex;
+  height: 80vh;
+  justify-content: space-evenly;
+}
+
+.left-side {
+  width: 15vw;
+}
+
+.right-side {
+  width: 85vw;
+  overflow: scroll;
+  padding-right: 1rem;
+}

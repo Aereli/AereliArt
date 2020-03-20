@@ -40,10 +40,20 @@ const Layout = ({ children }) => {
             flexDirection: `column`,
             width: `100vw`,
             textAlign: `center`,
+            margin: `1.5rem`,
           }}
         >
           © {new Date().getFullYear()}, I'm also a developer, built with
-          <a href="https://www.gatsbyjs.org"> Gatsby</a>
+          <a
+            href="https://www.gatsbyjs.org"
+            target="_blank"
+            style={{
+              textDecoration: `none`,
+            }}
+          >
+            {" "}
+            Gatsby
+          </a>
         </footer>
       </div>
     </>
