@@ -22,14 +22,54 @@
             }
           }
           p {
+            line-height: 24px;
           }
           button {
+            position: relative;
+            background-color: none;
+            border: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 0.7px;
+            display: flex;
+            align-items: center;
+            &:focus {
+              outline: none;
+            }
           }
         }
       }
     }
   }
 }
-.hero-image-lithograph {
-  width: 300px;
+.hero-images {
+  width: 50%;
+  height: 100vh;
+  position: relative;
+  .hero-images-inner {
+    .hero-image {
+      position: absolute;
+      overflow: hidden;
+      &.lithograph {
+        top: 0;
+        right: 0;
+        width: 45%;
+        height: 50%;
+      }
+      &.lola {
+        bottom: 24px;
+        left: 0;
+        width: 52%;
+        height: 65%;
+      }
+      img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+      }
+    }
+  }
 }

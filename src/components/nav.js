@@ -32,10 +32,10 @@ const Nav = () => (
         </div>
         <div className="hero-images">
           <div className="hero-images-inner">
-            <div className="hero-image-lithograph">
+            <div className="hero-image lithograph">
               <Lithograph />
             </div>
-            <div className="hero-image-lola">
+            <div className="hero-image lola">
               <Lola />
             </div>
           </div>
