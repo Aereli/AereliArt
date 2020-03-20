@@ -27,7 +27,6 @@
           }
           button {
             position: relative;
-            background-color: none;
             border: none;
             cursor: pointer;
             text-transform: uppercase;
@@ -35,12 +34,16 @@
             letter-spacing: 0.7px;
             display: flex;
             align-items: center;
+            background-color: #dde3e9;
+
             &:focus {
               outline: none;
             }
+
             .content-button {
               text-decoration: none;
               color: black;
+              background-color: #dde3e9;
             }
           }
         }

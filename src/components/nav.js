@@ -68,7 +68,7 @@ const Nav = () => {
                 </div>
               </h1>
               <p>Sculptures - Paintings - Drawings</p>
-              <button>
+              <button className="content-button-container">
                 <Link className="content-button" to="/page-2/">
                   Explore
                 </Link>
