@@ -37,15 +37,13 @@ const Layout = ({ children }) => {
         <footer
           style={{
             display: `flex`,
-            // minHeight: `100vh`,
-
-            // flexDirection: `column`,
+            flexDirection: `column`,
+            width: `100vw`,
             textAlign: `center`,
           }}
         >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          © {new Date().getFullYear()}, I'm also a developer, built with
+          <a href="https://www.gatsbyjs.org"> Gatsby</a>
         </footer>
       </div>
     </>

@@ -1,5 +1,6 @@
 .hero {
-  height: 100vh;
+  visibility: hidden;
+  height: 80vh;
   .container-hero {
     width: 1440px;
     min-width: 1440px;
@@ -8,7 +9,7 @@
       align-items: center;
       justify-content: space-between;
       margin: 0 24px;
-      height: 100vh;
+      height: 80vh;
       .hero-content {
         width: 50%;
         .hero-content-inner {
@@ -37,6 +38,10 @@
             &:focus {
               outline: none;
             }
+            .content-button {
+              text-decoration: none;
+              color: black;
+            }
           }
         }
       }
@@ -45,7 +50,7 @@
 }
 .hero-images {
   width: 50%;
-  height: 100vh;
+  height: 80vh;
   position: relative;
   .hero-images-inner {
     .hero-image {

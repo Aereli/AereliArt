@@ -58,7 +58,7 @@ const Nav = () => {
             <div className="hero-content-inner" ref={el => (content = el)}>
               <h1>
                 <div className="hero-content-line">
-                  <div className="hero-content-line-inner">My</div>
+                  <div className="hero-content-line-inner">my</div>
                 </div>
                 <div className="hero-content-line">
                   <div className="hero-content-line-inner">other name is</div>
