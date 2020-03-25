@@ -12,7 +12,24 @@
 
 \*\* git push -f <remote> <branch>
 
+Bootstrap Carousel was used
+
+[react-image-lightbox](https://www.npmjs.com/package/react-image-lightbox)
+
 ## Gatsby Plugins
+
+[react modal was used](https://reactcommunity.org/react-modal/)
+
+gatsby-image
+
+- Had a few issues with graphql, saying images were null.
+  Solution was to reset gatsby cache by: [this link helped](https://github.com/gatsbyjs/gatsby/issues/9917)
+
+```
+gatsby clean
+gatsby build
+gatsby develop
+```
 
 \*\* [sass](https://www.gatsbyjs.org/packages/gatsby-plugin-sass/)
 
