@@ -13,7 +13,6 @@
 \*\* git push -f <remote> <branch>
 
 Bootstrap Carousel was used
-
 [react-image-lightbox](https://www.npmjs.com/package/react-image-lightbox)
 
 ## Gatsby Plugins
