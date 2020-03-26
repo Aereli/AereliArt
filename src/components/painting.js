@@ -4,12 +4,12 @@ import { graphql, StaticQuery } from "gatsby"
 import "../styles/paintings.css"
 import Img from "gatsby-image"
 
-export default () => {
+export default props => {
   const [enlarge, setEnlarge] = useState(true)
 
   const handleClick = e => {
     // const id = e.currentTarget.value("id")
-    console.log(e)
+    console.log(props)
     setEnlarge(!enlarge)
   }
   return (

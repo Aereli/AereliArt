@@ -5,7 +5,7 @@ import Img from "gatsby-image"
 const Lola = () => {
   const data = useStaticQuery(graphql`
     query {
-      lolaImage: file(relativePath: { eq: "lola.jpg" }) {
+      lolaImage: file(relativePath: { eq: "shoes.jpeg" }) {
         childImageSharp {
           fluid(maxWidth: 150) {
             aspectRatio
@@ -15,7 +15,7 @@ const Lola = () => {
       }
     }
   `)
-  return <Img fluid={data.lolaImage.childImageSharp.fluid} alt="lola" />
+  return <Img fluid={data.lolaImage.childImageSharp.fluid} alt="shoes" />
 }
 
 export default Lola
