@@ -8,8 +8,8 @@ import Modal from "react-modal"
 const Painting2 = () => {
   const [modalOpen, setModalOpen] = useState(false)
 
-  const handleClick = eventId => {
-    console.log(eventId)
+  const handleClick = e => {
+    console.log(e)
     setModalOpen(true)
   }
 
@@ -52,7 +52,7 @@ const Painting2 = () => {
         }}
       >
         <h1>this is inside the modal</h1>
-        <p>{eventId}</p>
+        {/* <p>{eventId}</p> */}
       </Modal>
     </div>
   )
