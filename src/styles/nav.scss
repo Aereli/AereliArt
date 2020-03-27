@@ -55,12 +55,12 @@
   width: 50%;
   height: 80vh;
   position: relative;
-  overflow: hidden;
+  // overflow: hidden;
 
   .hero-images-inner {
     .hero-image {
       position: absolute;
-      overflow: hidden;
+      // overflow: hidden;
       &.lithograph {
         top: 0;
         right: 0;

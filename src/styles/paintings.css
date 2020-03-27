@@ -11,8 +11,12 @@
 }
 
 .individual-painting {
-  height: 260px;
-  overflow: hidden;
+  height: 300px;
+  /* overflow: auto; */
+  grid-auto-flow: dense;
+  object-fit: fill;
+  outline: none;
+  cursor: pointer;
 }
 
 .modal-button {
@@ -27,4 +31,5 @@
   font-family: "Nunito", sans-serif;
   border: none;
   outline: none;
+  cursor: pointer;
 }

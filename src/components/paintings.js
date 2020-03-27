@@ -44,9 +44,12 @@ const Painting = () => {
     <div className="paintings-container">
       {query.allFile.edges.map(edge => (
         <div
+          role="button"
+          tabIndex={0}
           className="individual-painting"
           key={edge.node.id}
           onClick={() => handleClick(edge.node.childImageSharp.fluid)}
+          onKeyDown={() => handleClick(edge.node.childImageSharp.fluid)}
         >
           <Img fluid={edge.node.childImageSharp.fluid} />
         </div>
@@ -67,4 +70,4 @@ const Painting = () => {
   )
 }
 
-export default Painting2
+export default Painting
