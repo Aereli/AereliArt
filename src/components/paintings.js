@@ -6,7 +6,7 @@ import Img from "gatsby-image"
 import Modal from "react-modal"
 Modal.setAppElement("*")
 
-const Painting2 = () => {
+const Painting = () => {
   const [modalOpen, setModalOpen] = useState(false)
   const [image, setImage] = useState(null)
 
@@ -43,22 +43,25 @@ const Painting2 = () => {
   return (
     <div className="paintings-container">
       {query.allFile.edges.map(edge => (
-        <button
-          id={edge.node.id}
+        <div
+          className="individual-painting"
+          key={edge.node.id}
           onClick={() => handleClick(edge.node.childImageSharp.fluid)}
         >
           <Img fluid={edge.node.childImageSharp.fluid} />
-        </button>
+        </div>
       ))}
       <Modal
         isOpen={modalOpen}
         onRequestClose={() => setModalOpen(false)}
         style={{
-          overlay: { backgroundColor: `grey` },
+          overlay: { backgroundColor: `black` },
         }}
       >
-        <h1>this is inside the modal</h1>
-        <Img fluid={image} />
+        <button className="modal-button" onClick={() => setModalOpen(false)}>
+          X
+        </button>
+        <Img fluid={image} key={image} />
       </Modal>
     </div>
   )
