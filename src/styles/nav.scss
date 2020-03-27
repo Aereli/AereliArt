@@ -55,6 +55,8 @@
   width: 50%;
   height: 80vh;
   position: relative;
+  overflow: hidden;
+
   .hero-images-inner {
     .hero-image {
       position: absolute;
