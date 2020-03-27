@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Painting from "../components/painting"
-import PaintingTest from "../components/paintingTest"
+import Painting from "../components/paintings"
 import "../styles/page-2.css"
 
 const SecondPage = () => (
@@ -17,7 +17,7 @@ const SecondPage = () => (
       </div>
       <div className="right-side">
         {/* <Painting /> */}
-        <PaintingTest />
+        <Painting />
       </div>
     </div>
   </Layout>
