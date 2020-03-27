@@ -1,23 +1,16 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's default starter 
-</h1>
 
 ## Personal Notes
 
-\*\* git push -f <remote> <branch>
+\*\* git push -f remote branch
 
-Bootstrap Carousel was used
-[react-image-lightbox](https://www.npmjs.com/package/react-image-lightbox)
+## 💫 Deploy
+
+Deployed using Netlify
+
+# Website can be found here at [Aereli.com](https://www.aereli.com/)
 
 ## Gatsby Plugins
-
-[react modal was used](https://reactcommunity.org/react-modal/)
 
 gatsby-image
 
@@ -30,7 +23,15 @@ gatsby build
 gatsby develop
 ```
 
-\*\* [sass](https://www.gatsbyjs.org/packages/gatsby-plugin-sass/)
+## Packages Used
+
+For the enlargement of images when clicked I used a modal.
+[react modal](https://reactcommunity.org/react-modal/)
+
+SCSS was used for the Home page
+[scss](https://www.gatsbyjs.org/packages/gatsby-plugin-sass/)
+
+## Other
 
 1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
 
@@ -55,11 +56,5 @@ gatsby develop
 11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
 12. **`README.md`**: A text file containing useful reference information about your project.
-
-## 💫 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
-
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/gatsbyjs/gatsby-starter-default)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
