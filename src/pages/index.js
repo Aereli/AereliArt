@@ -1,13 +1,12 @@
 import React from "react"
-import Layout from "../components/layout"
+import Layout from "../components/Layout/index.js"
 import SEO from "../components/seo"
-import Nav from "../components/nav"
+import Hero from "../components/Hero/index.js"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Nav />
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}></div>
+    <Hero />
   </Layout>
 )
 

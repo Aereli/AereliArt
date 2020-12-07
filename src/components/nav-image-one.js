@@ -5,7 +5,7 @@ import Img from "gatsby-image"
 const Lithography = () => {
   const data = useStaticQuery(graphql`
     query {
-      lithoImage: file(relativePath: { eq: "litho-plate.jpg" }) {
+      file(relativePath: { eq: "litho-plate.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 150) {
             aspectRatio
@@ -15,7 +15,7 @@ const Lithography = () => {
       }
     }
   `)
-  return <Img fluid={data.lithoImage.childImageSharp.fluid} alt="lithograph" />
+  return <Img fluid={data.file.childImageSharp.fluid} alt="lithograph" />
 }
 
 export default Lithography

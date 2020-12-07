@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  max-width: var(--maxWidth);
+  margin: 12rem auto 4rem auto;
+  background-color: var(--black);
+}
+
+.footer,
+.footer > * {
+  margin: 1rem;
+  text-align: center;
+  color: var(--white);
+  margin: 0;
+}

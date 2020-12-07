@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  // max-height: 1000px;
+  max-height: var(--maxHeight);
+  justify-content: center;
+  padding: 0 2rem;
+  overflow: scroll;
+}
+
+.singlePainting {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-rows: repeat(auto-fill, 250px);
+  grid-auto-flow: dense;
+  overflow: auto;
+  grid-auto-flow: dense;
+  object-fit: fill;
+  outline: none;
+  cursor: pointer;
+}
+
+.modalButton {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 2;
+  padding: 1vw;
+  background-color: black;
+  color: #dde3e9;
+  font-size: large;
+  font-family: "Nunito", sans-serif;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

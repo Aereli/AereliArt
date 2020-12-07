@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
+:root {
+  --primary: #354f52;
+  --secondary: #148873;
+  --light: #cad2c5;
+  --white: #fff;
+  --black: #2f3e46;
+  --gradient: linear-gradient(
+    0deg,
+    rgba(202, 210, 197, 1) 6%,
+    rgba(53, 79, 82, 1) 70%
+  );
+
+  --maxHeight: 1000px;
+  --maxWidth: 1280px;
+}
+
+html {
+  font-family: "Quicksand", sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  background: var(--primary);
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+a {
+  color: var(--black);
+  text-decoration-color: var(--black);
+  /* Chrome renders this weird with this font, so we turn it off */
+  text-decoration-skip-ink: none;
+  text-decoration: none;
+}
