@@ -2,7 +2,7 @@
 
 ## Personal Notes
 
-\*\* git push -f remote branch
+\*\* git push -f <remote> <branch>
 
 ## 💫 Deploy
 
