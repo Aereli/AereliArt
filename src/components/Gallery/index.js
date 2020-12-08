@@ -1,7 +1,6 @@
 import React from "react"
 import { useState } from "react"
 import { graphql, useStaticQuery } from "gatsby"
-// import "../styles/paintings.css"
 import styles from "./styles.module.scss"
 import Img from "gatsby-image"
 import Modal from "react-modal"
@@ -40,6 +39,19 @@ const Gallery = () => {
     }
   `)
 
+  const modalStyles = {
+    content: {
+      top: "50%",
+      left: "50%",
+      right: "auto",
+      bottom: "auto",
+      marginRight: "-50%",
+      transform: "translate(-50%, -50%)",
+      width: `80%`,
+      hieght: `80%`,
+    },
+  }
+
   return (
     <div className={styles.container}>
       {query.allFile.edges.map(edge => (
@@ -57,9 +69,7 @@ const Gallery = () => {
       <Modal
         isOpen={modalOpen}
         onRequestClose={() => setModalOpen(false)}
-        style={{
-          overlay: { backgroundColor: `black` },
-        }}
+        style={modalStyles}
       >
         <button
           className={styles.modalButton}

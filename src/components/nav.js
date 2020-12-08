@@ -46,8 +46,6 @@ const Nav = () => {
     }, .15, 'Start')
       .from(contentParagraph,1, {opacity: .01, ease: Power3.easeOut},1.4)
       .from(contentButton,2, {opacity: .01, x: 250, ease: Power3.easeOut},1.4)
-
-    console.log(headlineSecond, headlineThird)
   }, [tl])
 
   return (

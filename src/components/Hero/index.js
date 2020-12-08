@@ -16,13 +16,9 @@ const Hero = () => {
     }
   `)
 
-  console.log(query.file)
   return (
     <div className={styles.container}>
-      {/* <h1> this the hero</h1> */}
-      <div className={styles.image}>
-        <Img fluid={query.file.childImageSharp.fluid} />
-      </div>
+      <Img fluid={query.file.childImageSharp.fluid} alt="shoes" />
     </div>
   )
 }

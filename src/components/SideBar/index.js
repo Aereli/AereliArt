@@ -13,7 +13,7 @@ const Header = () => (
       </h1>
       <ul className={styles.sideLinks}>
         <li>
-          <Link to="/works">Work</Link>
+          <Link to="/works">Works</Link>
         </li>
         <li>
           <Link to="/">About</Link>

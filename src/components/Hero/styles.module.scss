@@ -1,10 +1,20 @@
 .container {
-  max-width: var(--maxWidth);
-  max-width: 1050px;
+  width: 1100px;
+  height: 100%;
+  position: relative;
   display: flex;
-  overflow: hidden;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.image {
-  width: 1200px;
+@media (max-width: 900px) {
+  .container {
+    width: 100vw;
+    height: 100vw;
+    margin: 10vh 0;
+
+    img {
+      height: 100%;
+    }
+  }
 }
